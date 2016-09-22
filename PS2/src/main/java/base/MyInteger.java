@@ -14,14 +14,14 @@ public class MyInteger {
 	}
 	
 	public boolean isEven() {
-		if (iValue/2==0)
+		if (iValue%2==0)
 			return true;
 		else
 			return false;
 	}
 	
 	public boolean isOdd() {
-		if (iValue/2==0)
+		if (iValue%2==0)
 			return false;
 		else
 			return true;
@@ -36,14 +36,14 @@ public class MyInteger {
 	}
 	
 	static boolean isEven(int number) {
-		if (number/2==0)
+		if (number%2==0)
 			return true;
 		else
 			return false;
 	}
 	
 	static boolean isOdd(int number) {
-		if (number/2==0)
+		if (number%2==0)
 			return false;
 		else
 			return true;
@@ -58,14 +58,14 @@ public class MyInteger {
 	}
 	
 	static boolean isEven(MyInteger number) {
-		if (number.iValue/2==0)
+		if (number.iValue%2==0)
 			return true;
 		else
 			return false;
 	}
 	
 	static boolean isOdd(MyInteger number) {
-		if (number.iValue/2==0)
+		if (number.iValue%2==0)
 			return false;
 		else
 			return true;
@@ -86,8 +86,8 @@ public class MyInteger {
 			return false;
 	}
 	
-	public boolean equal(MyInteger otherInteger) {
-		if (this.iValue == otherInteger.iValue)
+	public boolean equals(MyInteger otherInteger) {
+		if (this.iValue==otherInteger.iValue)
 			return true;
 		else
 			return false;
