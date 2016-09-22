@@ -94,5 +94,3 @@ public class MyInteger {
 	}
 	
 }
-
-// comment
